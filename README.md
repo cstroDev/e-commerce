@@ -1,5 +1,6 @@
-# Fre-commerce - Sistema de Caixa
+# E-commerce - Sistema de Caixa
 
+## 📖 Sobre o Projeto
 Este é um sistema de caixa simples, desenvolvido em JavaScript para Node.js, que simula o depósito de notas em um e-commerce fictício. O sistema calcula a quantidade total de notas e o valor monetário total depositado, respeitando um limite de capacidade.
 
 ## 📋 Requisitos do Sistema
@@ -10,13 +11,13 @@ O projeto foi desenvolvido para atender aos seguintes requisitos:
 2.  **Entrada de Dados:** O sistema solicita ao usuário que informe a quantidade de notas para cada valor, uma de cada vez, em sequência.
 3.  **Validação de Capacidade:** O programa valida se a soma da quantidade de todas as notas inseridas não ultrapassa o limite de 200 notas. Se o limite for excedido, a última entrada é invalidada e o sistema solicita a quantidade novamente.
 4.  **Cálculo Final:** Ao final da operação, o programa calcula e exibe a quantidade total de notas inseridas e o valor monetário final depositado.
-5.  **Encerramento:** A operação termina quando todas as quantidades de notas são inseridas, ou se o usuário digitar `-1` em qualquer etapa.
+5.  **Encerramento:** O programa pode ser finalizado antecipadamente caso o usuário digite -1 em qualquer etapa do processo.
 
 ## 🛠️ Tecnologias Utilizadas
 
 *   Node.js
 *   JavaScript
-*   prompt-sync - Para capturar a entrada do usuário no terminal.
+*   prompt-sync → Biblioteca utilizada para capturar entradas via terminal.
 
 ## 🚀 Como Executar o Projeto
 
